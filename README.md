@@ -68,7 +68,7 @@ One of the primary challenges was **Data Cleaning**:
 
 ## 📊 Final Dashboard View
 
-![Final Credit Risk Dashboard](Dashboard.png)
+![Dashboard](Project%201/Dashboard.png)
 ---
 
 ## 🚀 How to View the Project
@@ -112,7 +112,7 @@ Before technical implementation, I designed a wireframe to align with the CEO's 
 - **Center Right:** A **Geographic Heatmap** of South Africa to identify regional hotspots.
 - **Bottom:** An **Actionable Table** listing "Idle Leads" (no contact in >48 hours).
 
-![SaaS Dashboard Wireframe](mockup_wireframe.png)
+![Mockup](Project-2-SaaS-Sales-Strategy/mockup_wireframe.png).
 
 ---
 
@@ -127,4 +127,5 @@ By implementing this centralized Data Strategy:
 ### 🔑 Key Learning
 This project demonstrated that a successful BI solution is 20% visualization and 80% strategy. Establishing **Data Governance** and **Architecture** is what truly turns "messy data" into a business asset.   
 **Author:** Matimu Mkhacane 
+
 
