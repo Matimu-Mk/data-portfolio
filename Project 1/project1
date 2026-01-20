@@ -1,0 +1,47 @@
+# 📊 Credit Risk & Loan Portfolio Analysis
+
+## 🎯 Executive Summary
+This project delivers a comprehensive analysis of a retail banking loan portfolio. Using **Power BI**, I transformed a raw dataset of 32,000+ records into an interactive dashboard to monitor default rates, interest rate sensitivity, and high-exposure lending risks.
+
+## 🛠️ Technical Toolkit
+* **Data Transformation:** Power Query (M Language) for ETL and Locale-based formatting.
+* **Analysis:** DAX (Data Analysis Expressions) for calculated measures.
+* **Visualization:** Power BI Desktop.
+* **Environment:** VS Code for project documentation.
+
+---
+
+## 📈 Key Dashboard Features
+
+### 1. KPI Scorecard
+- **Total Principal Disbursed (R312.43M):** The total capital currently lent across the portfolio.
+- **Portfolio Default Rate (21.82%):** The percentage of loans currently categorized as unpaid.
+- **Weighted Avg. Interest Rate (11.01%):** The average cost of borrowing for the portfolio.
+
+### 2. Risk Distribution Analysis
+I implemented a **"Traffic Light" Risk Model** to categorize borrowers:
+- **Low Risk:** High-grade loans with consistent payment history.
+- **High Risk:** Loans showing signs of distress (Grades D-G).
+
+### 3. High-Exposure Tracking
+The dashboard includes a **Top 10 Exposure Table** which identifies the largest individual loans. This allows credit officers to prioritize intervention for high-value accounts at risk.
+
+---
+
+## 🏗️ Data Engineering Process
+One of the primary challenges was **Data Cleaning**:
+1. **Locale Conflicts:** Fixed interest rate decimal errors using English (US) locale settings in Power Query.
+2. **Data Integrity:** Resolved "Sum of Accounts" errors by converting account fields to **Distinct Count** to accurately represent the 32,581 unique borrowers.
+3. **Outlier Management:** Filtered and visualized interest rate spreads using Scatter Plots to identify predatory or high-risk outliers.
+
+---
+
+## 📊 Final Dashboard View
+
+![Final Credit Risk Dashboard](Dashboard.png)
+---
+
+## 🚀 How to View the Project
+1. Download the `credit_risk_dataset.pbix` file.
+2. Open with **Power BI Desktop**.
+3. Interact with the **Loan Intent** and **Home Ownership** slicers to see dynamic risk updates.

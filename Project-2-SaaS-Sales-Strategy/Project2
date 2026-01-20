@@ -1,0 +1,49 @@
+# 📊 SaaS Sales Pipeline Strategy & Solution Design
+
+## 🏢 The Case Study: FinTech Startup Optimization
+**Scenario:** A South African FinTech startup providing digital payment solutions to SMEs was struggling with "Data Silos." Sales data was scattered across Excel, WhatsApp logs, and an old CRM, making it impossible to forecast revenue or track lead conversion accurately.
+
+**My Role:** As the Lead Data Analyst, I designed a centralized data reporting strategy to bridge the gap between messy manual logs and executive decision-making.
+
+---
+
+## 🏗️ Step 1 & 2: Data Strategy & Architecture
+To solve the visibility gap, I proposed a transition from manual tracking to a structured data pipeline:
+
+1. **Data Ingestion:** Streamlining inputs from CRM exports, structured Excel templates (replacing WhatsApp), and Bank APIs.
+2. **ETL Layer:** Using Power Query to clean "Province" data (e.g., standardizing "JHB" to "Gauteng") and resolving duplicate lead entries.
+3. **Central Database:** Staging cleaned data in a SQL environment to serve as the "Single Source of Truth" for both Sales and Finance.
+
+---
+
+## 📏 Step 3: Metric Standardization
+I developed a **Metric Dictionary** (see `Metric-Dictionary.md`) to ensure all stakeholders agree on the math. Key KPIs include:
+- **MRR (Monthly Recurring Revenue):** To track predictable growth.
+- **Lead Conversion Rate:** To measure sales team efficiency.
+- **CAC (Customer Acquisition Cost):** To monitor marketing ROI.
+
+---
+
+## 🖼️ Step 4: Dashboard Mockup (Wireframe)
+Before technical implementation, I designed a wireframe to align with the CEO's requirements.
+
+### Layout Strategy:
+- **Top Row:** High-level KPI cards (MRR, Conversion %, Churn).
+- **Center Left:** A **Sales Funnel** showing drop-offs from *Lead* to *Closed-Won*.
+- **Center Right:** A **Geographic Heatmap** of South Africa to identify regional hotspots.
+- **Bottom:** An **Actionable Table** listing "Idle Leads" (no contact in >48 hours).
+
+![SaaS Dashboard Wireframe](mockup_wireframe.png)
+
+---
+
+## 🏁 Conclusion & Business Impact
+
+### 💡 Strategic ROI (Return on Investment)
+By implementing this centralized Data Strategy:
+1. **Time Efficiency:** Sales reps save approximately 5 hours a week by moving away from manual WhatsApp/Excel logging into a structured CRM flow.
+2. **Forecast Accuracy:** The CFO can now predict cash flow with 95% accuracy using the defined MRR and Churn metrics.
+3. **Data Quality:** Standardizing geographic data allows for precise regional marketing spend and better resource allocation.
+
+### 🔑 Key Learning
+This project demonstrated that a successful BI solution is 20% visualization and 80% strategy. Establishing **Data Governance** and **Architecture** is what truly turns "messy data" into a business asset.
